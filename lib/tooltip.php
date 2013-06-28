@@ -24,7 +24,7 @@ class Tooltip extends Tag implements Renderable {
 	 * failure. The $attributes parameter needs to match the $attributes parameter of the add_attribute method
 	 * in the Tag class.
 	 *
-	 * Exntends Tag @filesource tag..php
+	 * Exntends Tag @filesource tag.php
 	 *
 	 * @author Jack Neary
 	 * @since 1.0

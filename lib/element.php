@@ -268,7 +268,7 @@ abstract class Element extends Tag implements Renderable {
 	 * Can accept either a premade Label object, a string for the label content, or an array of label properties
 	 * 
 	 * @see Label::__construct
-	 * @filesource lib/label..php
+	 * @filesource lib/label.php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0
@@ -347,7 +347,7 @@ abstract class Element extends Tag implements Renderable {
 	 * Can accept either a premade Tooltip object, a string for the tooltip content, or an array of tooltip properties
 	 * 
 	 * @see Tooltip::__construct
-	 * @filesource lib/tooltip..php
+	 * @filesource lib/tooltip.php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0

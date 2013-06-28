@@ -54,7 +54,7 @@ class Checkbox extends Element implements Renderable {
 	 * Overwrites Select::get_html()
 	 * 
 	 * @see Select::get_html
-	 * @filesource elements/select..php
+	 * @filesource elements/select.php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0

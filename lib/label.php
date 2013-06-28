@@ -36,7 +36,7 @@ class Label extends Tag implements Renderable {
 	 * $attributes parameter needs to match the $attributes parameter of the add_attribute method
 	 * in the Tag class.
 	 *
-	 * Exntends Tag @filesource tag..php
+	 * Exntends Tag @filesource tag.php
 	 *
 	 * @author Jack Neary
 	 * @since 1.0
@@ -171,7 +171,7 @@ class Label extends Tag implements Renderable {
 	 * This is called automatically when adding a label to an element via Element::set_label()
 	 * 
 	 * @see Element::set_label()
-	 * @filesource lib/element..php
+	 * @filesource lib/element.php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0
