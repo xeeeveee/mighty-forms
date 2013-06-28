@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-class Action {
+abstract class Action {
 	
 	/**
 	 * @var string - the name of this particular action

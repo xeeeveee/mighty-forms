@@ -47,7 +47,7 @@ class Multicheckbox extends Select implements Renderable {
 	 * Overwrites Select::get_html()
 	 *
 	 * @see Select::get_html
-	 * @filesource elements/select.class.php
+	 * @filesource elements/select.php
 	 *
 	 * @author Jack Neary
 	 * @since 1.0

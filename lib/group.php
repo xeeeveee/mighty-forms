@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-class Group extends Form_Helper implements Renderable, Orderable {
+class Group extends Tag implements Renderable, Orderable {
 
 	/**
 	 * @var array - the elements assigned to the group

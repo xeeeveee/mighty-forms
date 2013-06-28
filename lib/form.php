@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-class Form extends Form_Helper implements Renderable {
+class Form extends Tag implements Renderable {
 
 	/**
 	 * @var array - the elements assigned to the form
@@ -367,7 +367,7 @@ class Form extends Form_Helper implements Renderable {
 	 * @author Jack Neary
 	 * @since 1.0
 	 * 
-	 * @uses Form_Helper::_element_sort
+	 * @uses Tag::_element_sort
 	 */
 	public function prepare_components() {
 		

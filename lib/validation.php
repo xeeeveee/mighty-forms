@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-class Validation {
+abstract class Validation {
 
 	/**
 	 * @var string - the name of the validation object

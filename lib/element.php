@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-abstract class Element extends Form_Helper implements Renderable {
+abstract class Element extends Tag implements Renderable {
 
 	/**
 	 * @var array - an array of validation objects
@@ -72,9 +72,9 @@ abstract class Element extends Form_Helper implements Renderable {
 	 * @author Jack Neary
 	 * @since 1.0
 	 * 
-	 * @uses Form_Helper::set_label()
-	 * @uses Form_Helper::set_tooltip()
-	 * @uses Form_Helper::add_attributes()
+	 * @uses Tag::set_label()
+	 * @uses Tag::set_tooltip()
+	 * @uses Tag::add_attributes()
 	 * 
 	 * @param string $name the name of the element
 	 * @param array $config configuration array for building a complete element
@@ -268,7 +268,7 @@ abstract class Element extends Form_Helper implements Renderable {
 	 * Can accept either a premade Label object, a string for the label content, or an array of label properties
 	 * 
 	 * @see Label::__construct
-	 * @filesource lib/label.class.php
+	 * @filesource lib/label..php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0
@@ -347,7 +347,7 @@ abstract class Element extends Form_Helper implements Renderable {
 	 * Can accept either a premade Tooltip object, a string for the tooltip content, or an array of tooltip properties
 	 * 
 	 * @see Tooltip::__construct
-	 * @filesource lib/tooltip.class.php
+	 * @filesource lib/tooltip..php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0

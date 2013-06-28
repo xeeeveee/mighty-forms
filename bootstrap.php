@@ -25,7 +25,7 @@ require_once( 'interfaces/renderable.php' );
 require_once( 'interfaces/actionable.php' );
 require_once( 'interfaces/validatable.php' );
 
-require_once( 'lib/formhelper.php' );
+require_once( 'lib/tag.php' );
 require_once( 'lib/group.php' );
 require_once( 'lib/label.php' );
 require_once( 'lib/attribute.php' );

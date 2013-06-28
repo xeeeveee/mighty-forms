@@ -60,7 +60,7 @@ class Select extends Element implements Renderable {
 	 * Overwrites Element::get_html()
 	 * 
 	 * @see Element::get_html
-	 * @filesource lib/element.class.php
+	 * @filesource lib/element.php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0

@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-abstract class Form_Helper {
+abstract class Tag {
 	
 	/**
 	 * @var array - Array of attribute objects

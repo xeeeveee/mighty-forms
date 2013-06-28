@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-class Tooltip extends Form_Helper implements Renderable {
+class Tooltip extends Tag implements Renderable {
 	
 	/**
 	 * @var string - The tooltip's content
@@ -22,9 +22,9 @@ class Tooltip extends Form_Helper implements Renderable {
 	 * Constructs a tooltip object for an element. Minimun requirements are the $content parameter which
 	 * is the tooltips content, this must be of type string, or the method will return false as a 
 	 * failure. The $attributes parameter needs to match the $attributes parameter of the add_attribute method
-	 * in the Form_Helper class.
+	 * in the Tag class.
 	 *
-	 * Exntends Form_Helper @filesource formhelper.class.php
+	 * Exntends Tag @filesource tag..php
 	 *
 	 * @author Jack Neary
 	 * @since 1.0

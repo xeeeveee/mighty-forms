@@ -9,7 +9,7 @@
  * @author Jack Neary
  */
 
-class Label extends Form_Helper implements Renderable {
+class Label extends Tag implements Renderable {
 	
 	/**
 	 * @var string - The label's content
@@ -34,9 +34,9 @@ class Label extends Form_Helper implements Renderable {
 	 * failure. The $before and $attributes parameters are optional. $before must be a boolean value
 	 * and dictates whether the label is to be rendered before or after the element it's self. The
 	 * $attributes parameter needs to match the $attributes parameter of the add_attribute method
-	 * in the Form_Helper class.
+	 * in the Tag class.
 	 *
-	 * Exntends Form_Helper @filesource formhelper.class.php
+	 * Exntends Tag @filesource tag..php
 	 *
 	 * @author Jack Neary
 	 * @since 1.0
@@ -171,7 +171,7 @@ class Label extends Form_Helper implements Renderable {
 	 * This is called automatically when adding a label to an element via Element::set_label()
 	 * 
 	 * @see Element::set_label()
-	 * @filesource lib/element.class.php
+	 * @filesource lib/element..php
 	 * 
 	 * @author Jack Neary
 	 * @since 1.0
