@@ -1,11 +1,11 @@
 <?php
 /**
- * Key Retirement Solutions Form Framework
+ * Mighty Studios Form Framework
  *
- * @package Keyrs Forms Framework
+ * @package Mighty Forms Framework
  * @subpackage Actions
  * 
- * @link http://www.keyrs.co.uk
+ * @link http://www.mighty.co.uk
  * @author Jack Neary
  */
 

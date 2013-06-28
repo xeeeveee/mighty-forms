@@ -8,7 +8,7 @@
  * Author URI:
  * Text Domain: mighty-forms
  *
- * Key Retirement Solutions Form Framework
+ * Mighty Studios Form Framework
  *
  * @package Mighty Forms Framework
  * 
